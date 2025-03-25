@@ -44,6 +44,30 @@ export class BlogComponent {
       "titulo": "CONSULTA TU RECORD DE CONDUCTOR",
       "imagen": "assets/record.jpg",
       "url": "https://recordconductor.mtc.gob.pe/"
-    }
+    },
+    {
+      "fecha": "",
+      "titulo": "LICENCIA POR FALLECIMIENTO DE FAMILIARES EN EL SECTOR PRIVADO",
+      "imagen": "assets/licencia.png",
+      "url": "assets/LICENCIA POR FALLECIMIENTO DE FAMILIARES EN EL SECTOR PRIVADO.pdf"
+    },
+    {
+      "fecha": "",
+      "titulo": "DESCANSO SEMANAL OBLIGATORIO EN EL SECTOR PRIVADO",
+      "imagen": "assets/DESCANSO.png",
+      "url": "assets/DESCANSO SEMANAL OBLIGATORIO EN EL SECTOR PRIVADO.pdf"
+    },
+    {
+      "fecha": "",
+      "titulo": "DERECHOS LABORALES DE LAS TRABAJADORAS",
+      "imagen": "assets/derechos.png",
+      "url": "assets/DERECHOS LABORALES DE LAS TRABAJADORAS EN ETAPA DE GESTACIÓN Y LACTANCIA EN EL SECTOR PRIVADO.pdf"
+    },
+    {
+      "fecha": "",
+      "titulo": "BOLETAS DE PAGO",
+      "imagen": "assets/boletas.png",
+      "url": "assets/BOLETAS DE PAGO.pdf"
+    },
   ]
 }
