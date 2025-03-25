@@ -46,7 +46,7 @@ export class ServicesComponent implements OnInit {
     *RUC:* ${ruc}%0A
     *Mensaje:* ${mensaje}`;
 
-    const url = `https://api.whatsapp.com/send?phone=51922914520&text=${texto}`;
+    const url = `https://api.whatsapp.com/send?phone=51997426268&text=${texto}`;
 
     window.open(url, '_blank');
   }

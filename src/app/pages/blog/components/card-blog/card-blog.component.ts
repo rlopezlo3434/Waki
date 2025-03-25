@@ -9,4 +9,10 @@ import { Component, Input } from '@angular/core';
 })
 export class CardBlogComponent {
   @Input() data: any;
+
+  abrirEnNuevaPestana(url: string) {
+    if (url) {
+      window.open(url, '_blank');
+    }
+  }
 }

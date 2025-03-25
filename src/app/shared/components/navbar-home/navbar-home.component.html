@@ -7,7 +7,7 @@
             <a [routerLink]="'/blog'" routerLinkActive="active">Blog</a>
             <a [routerLink]="'/servicios'" routerLinkActive="active">Servicios</a>
             <a [routerLink]="'/proposito'" routerLinkActive="active">Propósito</a>
-            <a class="btn-Registrar">Acceder</a>
+            <a class="btn-Registrar" (click)="abrirModal()">Acceder</a>
         </div>
     </nav>
     <div class="container">
@@ -16,8 +16,17 @@
             <p class="descripcion">
                 Waki Runa es el servicio de Gestion Humana que necesitas <br> para avanzar en el mundo laboral ¡Comienza ahora!
             </p>
-            <button class="btn-Registrar">Regístrate gratis</button>
+            <button class="btn-Registrar" (click)="abrirModal()">Regístrate gratis</button>
         </div>
         <img src="assets/Home_img.png" alt="Imagen Sobrepuesta" class="overlay-img">
+    </div>
+</div>
+
+<div class="modal-overlay" *ngIf="isModalOpen">
+    <div class="modal-content">
+        <h2>Gracias!</h2>
+        <p>Estamos Trabajando para darles una mejor atención.</p>
+        <img src="assets/modalayuda.png" alt="">
+        <button class="close-modal" (click)="cerrarModal()">Cerrar</button>
     </div>
 </div>

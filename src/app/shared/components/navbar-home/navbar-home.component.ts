@@ -10,5 +10,13 @@ import { RouterModule } from '@angular/router';
   styleUrl: './navbar-home.component.css'
 })
 export class NavbarHomeComponent {
+  isModalOpen = false;
 
+  abrirModal() {
+    this.isModalOpen = true;
+  }
+
+  cerrarModal() {
+    this.isModalOpen = false;
+  }
 }
