@@ -1,0 +1,45 @@
+<app-navbar></app-navbar>
+<div class="container">
+    <div class="text-content">
+        <div class="title">Reclutamiento, <br> selección y capacitación</div>
+        <p>
+            <strong>Ofrecemos tiempo calidad y precio.</strong> Encontrando y garantizando <br> personal reconocido por
+            la calidad de su trabajo
+            y la agilidad de nuestro <br>
+            proceso, que contribuye con el éxito de nuestro clientes.
+        </p>
+    </div>
+    <img src="assets/Servicios_img.png" alt="Imagen Sobrepuesta" class="overlay-img">
+</div>
+<div class="container2">
+    <div class="container-title">
+        Nuestros números nos respaldan
+    </div>
+    <div>Algunas calificaciones de nuestros clientes</div>
+
+    <div class="container-numeros">
+        <div *ngFor="let item of stats" class="container-card">
+            <app-car-numeros [data]="item"></app-car-numeros>
+        </div>
+    </div>  
+</div>
+<div class="container3">
+    <div class="container-title">
+        Conversa con nosotros
+    </div>
+    <div>dejanos saber como podemos ayudarte</div>
+
+    <div class="container-nosotros reverse">
+        <img src="assets/Servicios_img2.png" alt="">
+        <div class="form">
+            <input class="inputStyle" type="text" placeholder="Nombre y Apellido*" [(ngModel)]="formData.nombre">
+            <input class="inputStyle" type="text" placeholder="Email*" [(ngModel)]="formData.email">
+            <input class="inputStyle" type="text" placeholder="Teléfono*" [(ngModel)]="formData.telefono">
+            <input class="inputStyle" type="text" placeholder="Razón Social*" [(ngModel)]="formData.razon">
+            <input class="inputStyle" type="text" placeholder="RUC" [(ngModel)]="formData.ruc">
+            <textarea class="inputStyle" name="" id="" cols="30" rows="10" placeholder="Déjanos tu mensaje..." [(ngModel)]="formData.mensaje"></textarea>
+            <button class="btnEnviar" (click)="enviarWhatsApp()"><strong>Enviar</strong></button>
+        </div>
+    </div> 
+</div>
+<app-footer></app-footer>

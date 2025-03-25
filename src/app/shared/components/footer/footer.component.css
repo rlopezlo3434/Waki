@@ -1,0 +1,17 @@
+.footer {
+    background: #190D67;
+    color: white;
+    padding: calc(2vh + 10px) calc(2vw + 20px);
+    font-size: 0.9rem;
+}
+
+.logo {
+    margin-bottom: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+}

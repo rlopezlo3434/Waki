@@ -1,0 +1,281 @@
+.container-title {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 40px;
+    padding-top: calc(5vw);
+    text-align: center;
+}
+
+.container-title2 {
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 40px;
+    padding-top: calc(10vw);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.container-all-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: -50px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    line-height: 10px;
+    padding: calc(20vh - 120px) 0px;
+}
+
+.overlay-img {
+    position: relative;
+    bottom: -105px;
+    max-width: 40%;
+    z-index: 1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: #EBEFFF;
+}
+
+.container-card {
+    padding: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: calc(10vw + 80px);
+    max-height: calc(18vh + 200px);
+    height: calc(20vh + 220px);
+    align-items: center;
+    background-color: white;
+}
+
+.container-card img {
+    max-width: 70%;
+    height: auto;
+}
+
+.text-card {
+    font-size: 1.1rem;
+}
+
+.title-card {
+    font-size: 1.5rem;
+    color: #6D49D5;
+    margin-bottom: 10px;
+}
+
+.video-card {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.video-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+}
+
+.video-preview {
+    position: absolute;
+    top: 0;
+    left: 30;
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+::ng-deep .p-icon {
+    color: #6D49D5;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.container-acordion {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.container-acordion-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.text-title2 {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 768px) {
+
+    .container-card {
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+        margin: 10px;
+        padding: 15px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        min-width: calc(10vw + 150px);
+        max-height: calc(18vh + 200px);
+        height: calc(20vh + 120px);
+        align-items: center;
+        background-color: white;
+    }
+
+    .container-card img {
+        max-width: 35%;
+    }
+
+    .title-card {
+        font-size: 1.1rem;
+        margin-bottom: 5px;
+    }
+
+    .text-card {
+        font-size: 1rem;
+    }
+
+    .container-title {
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+
+    .container-title2 {
+        font-size: 1.5rem;
+    }
+
+    .text-title2 {
+        font-size: 1rem;
+        padding: 0px 10px;
+    }
+
+    .video-card {
+        width: 120%;
+    }
+
+    .video-preview {
+        width: 120%;
+    }
+
+    .container-acordion {
+        width: 90%;
+    }
+
+    .overlay-img {
+        max-width: 100%;
+        bottom: -20px;
+
+    }
+
+    .container-all-cards {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        gap: 5px;
+        margin: 0px 20px;
+        /* Degradado en los extremos */
+        -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,0.2) 80%, rgba(0,0,0,1) 80%, rgba(0,0,0,1) 10%, rgba(0,0,0,0.2) 100%);
+        mask-image: linear-gradient(to right, rgba(0,0,0,0.2) 0%, rgba(0,0,0,1) 5%, rgba(0,0,0,1) 90%, rgba(0,0,0,0.2) 120%);
+    }
+
+    .container-all-cards::-webkit-scrollbar {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 941px) and (max-width: 1669px) {
+
+    .container-card {
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+        margin: 10px;
+        padding: 15px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        min-width: calc(10vw + 80px);
+        max-height: calc(18vh + 200px);
+        height: calc(20vh + 120px);
+        align-items: center;
+        background-color: white;
+    }
+
+
+
+    .container {
+        margin-bottom: 4vh;
+    }
+
+    .title-card {
+        font-size: 1.1rem;
+        margin-bottom: 5px;
+    }
+
+    .text-card {
+        font-size: 1rem;
+    }
+
+    .container-card img {
+        max-width: 40%;
+    }
+
+    .container-title {
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+
+    .container-title2 {
+        font-size: 2rem;
+    }
+
+    .text-title2 {
+        font-size: 1rem;
+        padding: 0px 10px;
+    }
+
+    .container2 {
+        padding: calc(10vh - 120px) 0px;
+    }
+
+    .overlay-img {
+        max-width: 60%;
+    }
+
+    .video-card {
+        width: 100%;
+    }
+
+    .video-preview {
+        width: 100%;
+    }
+
+    .container-acordion {
+        width: 90%;
+    }
+}

@@ -1,0 +1,39 @@
+.numeros-line {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 500;
+    color: #190D67;
+}
+
+.stat-card {
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-card {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    width: calc(10vw - 0px);
+    max-width: 300px;
+}
+
+.title-card {
+    font-size: 1.3rem;
+    text-align: center;
+    color: #190D67;
+    font-weight: 500;
+}
+
+@media (max-width: 940px) {
+    .container-card {
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        width: 55vw;
+        max-width: 200px;
+        margin-bottom: 20px;
+    }
+
+}

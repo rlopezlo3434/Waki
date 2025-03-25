@@ -1,0 +1,61 @@
+.navbar-container {
+    background: linear-gradient(to bottom, #5640C7, #AE39DD);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px calc(5vw + 30px);
+    align-items: center;
+}
+
+.navbar-container a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.active-link {
+    color: yellow;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-Registrar {
+    border: none;
+    cursor: pointer;
+    background-color: #FFCE00;
+    color: #2E198B !important;
+    padding: calc(10px + 0.2vw) calc(20px + 1vw);
+    font-weight: 600 !important;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+
+.nav-links a.active {
+    color: #FFCE00;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 940px){
+    .navbar-container {
+        padding: 20px calc(1vw + 15px);
+        display: flex;
+        flex-direction: column;
+        gap: 30px   ;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 941px) and (max-width: 1669px) {
+    .navbar-container {
+        padding: 20px calc(1vw + 15px);
+        gap: 30px   ;
+        justify-content: space-between;
+    }
+}

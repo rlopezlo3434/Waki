@@ -1,0 +1,27 @@
+.container-card{
+    padding: 20px 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-height: calc(5vh + 290px);
+    height: calc(5vh + 290px);
+    justify-content: space-between;
+}
+
+.btn-leer{
+    border: 1px solid #4C2FBE;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    color: #4C2FBE;
+    width: 100%;
+    cursor: pointer;
+}
+
+.imagen{
+    width: 100%;
+    border-radius: 10px;
+}

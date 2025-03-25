@@ -1,0 +1,161 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px calc(5vw + 30px);
+    align-items: center;
+}
+
+.navbar-container a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.active-link {
+    color: yellow;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.descripcion {
+    padding-bottom: 30px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-links a.active {
+    color: #FFCE00;
+    font-weight: bold;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: calc(5vw + 120px) calc(5vw + 280px);
+    height: calc(5vh + 300px);
+}
+
+.overlay-img {
+    position: absolute;
+    right: 20vw;
+    bottom: -25px;
+    max-width: 40%;
+    z-index: 1;
+}
+
+.title {
+    font-size: 3rem;
+    color: white;
+    font-weight: 600;
+    line-height: 2.5rem;
+    margin-bottom: 25px;
+}
+
+.text-content {
+    color: white;
+}
+
+
+.btn-Registrar {
+    border: none;
+    cursor: pointer;
+    background-color: #FFCE00;
+    color: #2E198B !important;
+    padding: calc(10px + 0.2vw) calc(20px + 1vw);
+    font-weight: 600 !important;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.btn-Registrar:hover {
+    background-color: #fad43a;
+}
+
+
+@media screen and (max-width: 940px)  {
+    .navbar-container {
+        padding: 20px calc(1vw + 15px);
+        display: flex;
+        flex-direction: column;
+        gap: 30px   ;
+        justify-content: space-between;
+    }
+
+    .container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: calc(2vw + 20px) calc(2vw + 10px);
+        height: calc(5vh + 550px);
+    }
+    
+    .title {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        margin-bottom: 2px;
+    }
+    
+    .text-content {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .descripcion {
+        padding-bottom: 10px;
+    }
+
+    .overlay-img {
+        position: absolute;
+        right: 100px;
+        bottom: -20px;
+        max-width: 55%;
+        z-index: 1;
+    }
+}
+
+@media screen and (min-width: 941px) and (max-width: 1669px)  {
+    .navbar-container {
+        padding: 20px calc(1vw + 15px);
+        gap: 30px   ;
+        justify-content: space-between;
+    }
+
+    .container {
+        position: relative;
+        padding: calc(2vw + 20px) calc(2vw + 10px);
+        height: calc(5vh + 350px);
+    }
+    
+    .title {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        margin-bottom: 2px;
+    }
+    
+    .text-content {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .descripcion {
+        padding-bottom: 10px;
+    }
+
+    .overlay-img {
+        position: absolute;
+        right: 50px;
+        bottom: -20px;
+        max-width: 40%;
+        z-index: 1;
+    }
+}

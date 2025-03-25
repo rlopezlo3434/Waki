@@ -1,0 +1,346 @@
+.overlay-img {
+    position: absolute;
+    right: 450px;
+    bottom: -25px;
+    max-width: 40%;
+    z-index: 1;
+}
+
+.overlay-img2 {
+    position: absolute;
+    right: 130px;
+    bottom: 0px;
+    max-width: 40%;
+    z-index: 1;
+}
+
+.container-propositos-footer {
+    padding: 6vh 0px;
+}
+
+.registrate-gratis {
+    position: relative;
+    display: flex;
+    gap: 100px;
+    justify-content: start;
+    margin: 0px 20vw;
+    padding: calc(4vh + 5px) 5vw;
+    background-color: #EBEFFF;
+    border-radius: 10px;
+}
+
+.container-pilares {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px 65px;
+    gap: 30px;
+    width: 30%;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: calc(5vw + 120px) calc(5vw + 280px);
+    height: calc(5vh + 300px);
+    background-color: #ebe6ff;
+}
+
+.title {
+    font-size: 2.5rem;
+    color: #190D67;
+    font-weight: 500;
+    line-height: 2.5rem;
+    margin-bottom: 25px;
+}
+
+.container-propositos {
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+    align-items: center;
+    padding: 6vh 0px;
+}
+
+.container-pilares-filas {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.title-container {
+    font-size: 2.1rem;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.text {
+    font-size: 1rem;
+    line-height: 140%;
+}
+
+.btn-Registrar {
+    border: none;
+    cursor: pointer;
+    background-color: #FFCE00;
+    color: #2E198B;
+    padding: calc(10px + 0.2vw) calc(20px + 1vw);
+    font-weight: 600;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.btn-Registrar:hover {
+    background-color: #e7bd13;
+}
+
+.container-title {
+    font-weight: 500;
+    font-size: 2.2rem;
+    line-height: 40px;
+    padding: 15px 0px;
+}
+
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    line-height: 10px;
+    padding: calc(20vh - 120px) 0px;
+}
+
+.text-content {
+    max-width: 45%;
+}
+
+.texto-container {
+    width: 30%;
+}
+
+.containerPilares-text {
+    width: 80%;
+}
+
+.text-registrate {
+    font-weight: 500;
+    line-height: 40px;
+    font-size: 1.3rem;
+    color: #141928;
+}
+
+@media (max-width: 940px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: calc(5vw + 20px) calc(2vw);
+        height: calc(5vh + 390px);
+        background-color: #ebe6ff;
+    }
+
+    .text-content {
+        max-width: 90%;
+    }
+
+    .title {
+        font-size: 1.8rem;
+    }
+
+    .overlay-img {
+        position: absolute;
+        right: 90px;
+        bottom: -15px;
+        max-width: 60%;
+        z-index: 1;
+    }
+
+    .container2 {
+        padding: calc(14vh - 90px) 0px;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    .container-pilares-filas {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .container-pilares {
+        padding: 20px 15px;
+        gap: 30px;
+        margin: 0px 20px;
+        width: 91%;
+    }
+
+    .container-propositos {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        padding: 3vh 0px;
+    }
+
+    .container-propositos img {
+        max-width: 60%;
+    }
+
+    .title-container {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .text {
+        text-align: center;
+        font-size: 1rem;
+        line-height: 140%;
+        padding: 0px 20px;
+    }
+
+    .texto-container {
+        width: 100%;
+    }
+
+    .container-propositos-footer {
+        padding: 3vh 0px;
+    }
+
+    .registrate-gratis {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        justify-content: start;
+        margin: 0px 10vw;
+        padding: calc(2vh + 5px) 10vw;
+        padding-bottom: 105px;
+        background-color: #EBEFFF;
+        border-radius: 10px;
+    }
+
+    .text-registrate {
+        line-height: 20px;
+        color: #141928;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .overlay-img2 {
+        position: absolute;
+        right: 90px;
+        bottom: 0px;
+        max-width: 50%;
+        z-index: 1;
+    }
+    
+    .reverse{
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (min-width: 941px) and (max-width: 1669px) {
+    .container {
+        display: flex;
+        align-items: center;
+        padding: calc(5vw + 20px) calc(3vw);
+        height: calc(5vh + 360px);
+    }
+
+    .text-content {
+        max-width: 50%;
+    }
+
+    .title {
+        font-size: 1.8rem;
+    }
+
+    .overlay-img {
+        position: absolute;
+        right: 50px;
+        bottom: -20px;
+        max-width: 50%;
+        z-index: 1;
+    }
+
+    .container2 {
+        padding: calc(14vh - 90px) 0px;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    .container-pilares-filas {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .container-pilares {
+        padding: 20px 15px;
+        gap: 30px;
+        margin: 0px 20px;
+        width: 95%;
+    }
+
+    .container-propositos {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        padding: 3vh 0px;
+    }
+
+    .container-propositos img {
+        max-width: 60%;
+    }
+
+    .title-container {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .text {
+        text-align: center;
+        font-size: 1rem;
+        line-height: 140%;
+        padding: 0px 20px;
+    }
+
+    .texto-container {
+        width: 100%;
+    }
+
+    .container-propositos-footer {
+        padding: 3vh 0px;
+    }
+
+    .registrate-gratis {
+        position: relative;
+        gap: 50px;
+        justify-content: start;
+        margin: 50px 5vw;
+        padding: calc(2vh + 5px) 5vw;
+        background-color: #EBEFFF;
+        border-radius: 10px;
+    }
+
+    .overlay-img2 {
+        position: absolute;
+        right: 30px;
+        bottom: 0px;
+        max-width: 45%;
+        z-index: 1;
+    } 
+    
+    .reverse{
+        flex-direction: column-reverse;
+    }
+}

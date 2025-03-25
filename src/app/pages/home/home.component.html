@@ -1,0 +1,95 @@
+<app-navbar-home></app-navbar-home>
+
+<div class="container">
+    <div class="container-title">
+        Beneficios de trabajar con nosotros
+    </div>
+    <div class="overlay-img">
+        <div class="container-all-cards" >
+            <div class="container-card">
+                <img src="assets/page.png" alt="">
+                <div>
+                    <div class="title-card"><strong>Reclutamiento</strong></div>
+                    <div class="text-card">Encontramos el  personal reconocido en su expertis  garantizando
+                        por la calidad de su  trabajo.</div>
+                </div>
+            </div>
+            <div class="container-card ">
+                <img src="assets/miraMorada.png" alt="">
+                <div>
+                    <div class="title-card"><strong>Selección</strong></div>
+                    <div class="text-card">Te ayudamos con el personal calificado  que requieres,
+                        obteniendo mejores  resultados en menos tiempo.
+                    </div>
+                </div>
+            </div>
+            <div class="container-card ">
+                <img src="assets/penMorado.png" alt="">
+                <div>
+                    <div class="title-card"><strong>Capacitación</strong></div>
+                    <div class="text-card">Generando una relación de confianza con los  postulantes, lo cual se
+                        traduce en compromiso y mayor rendimiento laboral
+                    </div>
+                </div>
+            </div>
+            <div class="container-card ">
+                <img src="assets/vector3.png" alt="">
+                <div>
+                    <div class="title-card"><strong>Seguimiento</strong></div>
+                    <div class="text-card">Generando una relación de confianza con los postulantes, lo cual se
+                        traduce en compromiso y mayor rendimiento laboral
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<div class="container-title2">
+    ¿Cómo funciona Waki Runa?
+</div>
+<div class="text-title2">
+    Conoce en este video las herramientas y beneficios que Waki Runa tiene para ti
+</div>
+
+<div class="video-container">
+    <img *ngIf="showPreview" src="assets/wakiplay.png" style="cursor: pointer;" class="video-preview" alt="Vista previa"
+        (click)="playVideo()">
+    <video #videoPlayer class="video-card" src="assets/videoWaki.mp4" loop muted (click)="togglePlayPause()"></video>
+</div>
+
+<div class="container-acordion-1">
+    <div class="container-acordion">
+        <p-accordion [style]="{'width':'100%'}">
+            <p-accordionTab header="¿Cómo puedo participar en los procesos de selección de personal?" iconPos="end">
+                <p>Regístrate y adjunta tu cv en nuestra página web.</p>
+            </p-accordionTab>
+            <p-accordionTab header="¿Puedo postular a varias convocatorias en simultáneo?" iconPos="end">
+                <p>Si, siempre y cuando no estés en pleno proceso de selección.</p>
+            </p-accordionTab>
+            <p-accordionTab
+                header="¿Cómo puedo saber los resultados de cada etapa del proceso en el que estoy participando?"
+                iconPos="end">
+                <p>Ingresa con tu usuario y contraseña al módulo status y podrás apreciar el estado de tu proceso.</p>
+            </p-accordionTab>
+            <p-accordionTab header="Al crear mi cuenta, ¿he registrado de forma incorrecta mis datos, que puedo hacer?"
+                iconPos="end">
+                <p>Ingresa con tu usuario y contraseña al módulo datos personales, dale click a modificación de datos,
+                    en segundos recibirás en tu correo una clave temporal.</p>
+            </p-accordionTab>
+            <p-accordionTab header="¿Cómo me entero de nuevas convocatorias?" iconPos="end">
+                <p>Ingresa a la página web de Waki Runa al módulo de Ofertas Laborales.</p>
+            </p-accordionTab>
+            <p-accordionTab
+                header="¿Qué pasa si salgo observado en el examen médico ocupacional dentro del proceso de reclutamiento?"
+                iconPos="end">
+                <p>Revisa el resultado en el cual figura la causa limitante, coordina con el reclutador de Waki Runa
+                    para que te oriente.</p>
+            </p-accordionTab>
+        </p-accordion>
+    </div>
+</div>
+
+
+<app-footer></app-footer>

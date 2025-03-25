@@ -1,0 +1,25 @@
+<app-navbar></app-navbar>
+<div class="container">
+    <div class="text-content">
+        <div class="title">Trabajemos juntos en <br> tu crecimiento</div>
+        <div class="p-cont">
+            <p>
+                Ofrecemos temas relacionados que pueden ayudarte a estar en constante actualización que te permitan
+                estar a 
+                la vanguardia del mercado.
+            </p>
+        </div>
+
+    </div>
+    <img src="assets/Blog_img.png" alt="Imagen Sobrepuesta" class="overlay-img">
+</div>
+<div class="container2">
+    <div class="container-title">Escoge el tema de tu interés</div>
+    <div class="container-noticias">
+        <div class="" *ngFor="let card of blogs">
+            <app-card-blog [data]="card"></app-card-blog>
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>
